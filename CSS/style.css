@@ -1,0 +1,1312 @@
+/*colors: 28394a; 233656; 415B76; 7B9BA6; CDD6D5; EEF4F2; */
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-weight: 400;
+}
+
+html {
+    font-family: 'Quicksand', arial, sans-serif;
+    color: #CDD6D5;
+    background-color: #0B0D0F;
+    scroll-behavior: smooth;
+}
+
+.wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+h2 {
+    /* padding: 5px; */
+    line-height: 10vh;
+    /* border-bottom: 1px solid #CDD6D5; */
+    font-size: 30px;
+    text-align: center;
+}
+
+/* ------------------------------NAVIGATION------------------------------ */
+nav {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background-color: #0B0D0F;
+}
+
+nav ul {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    width: 100%;
+    height: 50px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    display: block;
+    margin: 5px 0;
+    padding: 0 40px;
+    color: #CDD6D5;
+    line-height: 40px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+nav ul li a:hover {
+    color: #EEF4F2;
+}
+
+nav ul li a i {
+    margin-right: 10px;
+}
+
+.arrow-up {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    width: 30px;
+    height: 30px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background-color: #415B76;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.arrow-up a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.arrow-up i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+}
+
+.arrow-up:hover {
+    background-color: #233656;
+}
+
+.burger-menu {
+    display: none;
+}
+
+
+
+
+/* ------------------------------HEADER------------------------------ */
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../IMG/keyboard_1920.jpg");
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.welcome {
+    margin: 0 auto;
+    padding-top: 25vh;
+    padding-left: 15vw;
+}
+
+header h1 {
+    color: #EEF4F2;
+    font-size: 70px;
+    font-family: 'Saira';
+    text-shadow: 2px 2px 1px #233656;
+}
+
+header h2 {
+    color: #EEF4F2;
+    line-height: 120%;
+    font-family: 'Saira';
+    text-shadow: 2px 2px 1px #233656;
+    letter-spacing: 2px;
+    border: none;
+    text-align: left;
+}
+
+/* ------------------------------About me------------------------------ */
+
+.about-me-container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    background-image: url("../IMG/keyboard_1920.jpg");
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.about-me-container>div {
+    padding: 2%;
+    width: 50%;
+    background-color: #233656dd;
+}
+
+.about-me-container>div:nth-child(2),
+.about-me-container>div:nth-child(3) {
+    background-color: #0000;
+}
+
+.about-me-description-text p {
+    margin: 2% 0;
+    display: block;
+    line-height: 150%;
+    text-align: justify;
+}
+
+.about-me-description-text p a {
+    color: #EEF4F2;
+    font-weight: 700;
+}
+
+.about-me-container .about-me-technologies div.technology-logos {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+.about-me-container .about-me-technologies div.technology-logos .technology-logo {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 2% 5%;
+    width: 25%;
+}
+
+.about-me-container .about-me-technologies div.technology-logos .technology-logo p {
+    margin-top: 15%;
+    text-align: center;
+}
+
+.about-me-container .about-me-technologies div.technology-logos img {
+    height: 100px;
+}
+
+/* ------------------------------workflow------------------------------ */
+
+
+.my-workflow-container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.my-workflow-unit {
+    -webkit-flex-basis: calc(100%/4);
+    -ms-flex-preferred-size: calc(100%/4);
+    flex-basis: calc(100%/4);
+    padding: 2vw;
+    text-align: center;
+}
+
+.my-workflow-unit i {
+    width: 116px;
+    line-height: 110px;
+    color: #415B76;
+    border: 3px solid #415B76;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    font-size: 50px;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+}
+
+.my-workflow-unit i:hover {
+    background-color: #415B76;
+    color: #CDD6D5;
+}
+
+.my-workflow-unit>h3 {
+    display: block;
+    height: 62px;
+    margin: 15px 0;
+    font-size: 25px;
+}
+
+/* ------------------------------workflow-process----------------------------- */
+.workflow-process {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 40px 3vw 0 3vw;
+}
+
+.workflow-process .workflow-unit {
+    width: calc(100%/6);
+    text-align: center;
+}
+
+.workflow-process .workflow-unit p i {
+    width: 94px;
+    line-height: 90px;
+    color: #415B76;
+    border: 2px solid #415B76;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    font-size: 50px;
+    text-align: center;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+}
+
+.workflow-process .workflow-unit p i:hover {
+    background-color: #415B76;
+    color: #CDD6D5;
+}
+
+.workflow-process .workflow-unit h4 {
+    margin: 15px 0;
+    font-size: 20px;
+}
+
+
+.workflow-process .workflow-unit-description {
+    margin: 30px 0;
+    width: 100%;
+}
+
+.workflow-process .workflow-unit-description p {
+    display: block;
+    height: 0;
+    opacity: 0;
+    text-align: center;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.workflow-process .concept:hover~.workflow-unit-description p.concept {
+    opacity: 1;
+}
+
+.workflow-process .draft:hover~.workflow-unit-description p.draft {
+    opacity: 1;
+}
+
+.workflow-process .design:hover~.workflow-unit-description p.design {
+    opacity: 1;
+}
+
+.workflow-process .coding:hover~.workflow-unit-description p.coding {
+    opacity: 1;
+}
+
+.workflow-process .tests:hover~.workflow-unit-description p.tests {
+    opacity: 1;
+}
+
+.workflow-process .publication:hover~.workflow-unit-description p.publication {
+    opacity: 1;
+}
+
+/* ------------------------------Projects------------------------------ */
+
+div.projects-list {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-flex-shrink: 1;
+    -ms-flex-negative: 1;
+    flex-shrink: 1;
+    width: 100%;
+}
+
+div.projects-list div.project-miniature {
+    position: relative;
+    -webkit-flex-basis: calc(100%/3);
+    -ms-flex-preferred-size: calc(100%/3);
+    flex-basis: calc(100%/3);
+    height: calc(100vw/3*9/17);
+    overflow: hidden;
+}
+
+div.projects-list div.project-miniature .image img {
+    width: 100%;
+}
+
+div.projects-list div.project-miniature .description {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #415B7699;
+    opacity: 0;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+div.projects-list div.project-miniature .description h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: #EEF4F2;
+    font-size: 25px;
+    text-align: center;
+}
+
+div.projects-list div.project-miniature .description:hover {
+    opacity: 1;
+}
+
+div.projects-list div.project-miniature .description button {
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    border-style: none;
+    padding: 0 15px;
+    height: 40px;
+    color: #EEF4F2;
+    background-color: #415B76;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    outline: none;
+    font-family: 'Quicksand', arial, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+div.projects-list div.project-miniature .description button:hover {
+    background-color: #233656;
+}
+
+
+
+
+/* ------------------------------Contact------------------------------ */
+
+.contact>div {
+    display: block;
+    width: 100%;
+    background-image: url("../IMG/keyboard_1920.jpg");
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.contact div>div {
+    margin: 0 10% 0 50%;
+    display: block;
+    width: 40%;
+    background-color: rgba(11, 13, 15, .8);
+    ;
+}
+
+.contact form {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 35px;
+}
+
+.contact form input {
+    display: block;
+    margin-bottom: 25px;
+    padding: 15px;
+    height: 40px;
+    line-height: 200;
+}
+
+.contact form input.form-message {
+    height: 100px;
+    resize: none;
+}
+
+.contact form button {
+    border-style: none;
+    height: 40px;
+    color: #EEF4F2;
+    background-color: #415B76;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    font-family: 'Quicksand', arial, sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.contact form button:hover {
+    background-color: #233656;
+    letter-spacing: 1px;
+}
+
+/* ------------------------------FOOTER------------------------------ */
+footer {
+    height: 50px;
+    background-color: #0B0D0F;
+    text-align: center;
+}
+
+footer p {
+    color: #EEF4F2;
+    line-height: 50px;
+    font-size: 17px;
+}
+
+@media (max-width: 1023px) {
+    h2 {
+        /* padding: 5px; */
+        line-height: 10vh;
+        /* border-bottom: 1px solid #CDD6D5; */
+        font-size: 30px;
+        text-align: center;
+    }
+
+    p {
+        text-align: justify;
+    }
+
+    /* ------------------------------NAVIGATION------------------------------ */
+    nav {
+        position: fixed;
+        z-index: 1;
+        width: 100%;
+        background-color: #0B0D0F;
+    }
+
+    nav ul {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+        width: 100%;
+        height: 50px;
+    }
+
+    nav ul li {
+        list-style: none;
+    }
+
+    nav ul li a {
+        display: block;
+        margin: 5px 0;
+        padding: 0 20px;
+        color: #CDD6D5;
+        line-height: 40px;
+        text-decoration: none;
+    }
+
+    nav ul li a:hover {
+        color: #EEF4F2;
+    }
+
+    nav ul li a i {
+        margin-right: 10px;
+    }
+
+    .arrow-up {
+        position: fixed;
+        bottom: 15px;
+        right: 15px;
+        width: 30px;
+        height: 30px;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        background-color: #415B76;
+        -webkit-transition: 0.3s;
+        -o-transition: 0.3s;
+        transition: 0.3s;
+    }
+
+    .arrow-up i {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        font-size: 20px;
+    }
+
+    .arrow-up:hover {
+        background-color: #233656;
+    }
+
+    /* ------------------------------HEADER------------------------------ */
+
+
+    .welcome {
+        padding-left: 15vw;
+    }
+
+    /* ------------------------------About me------------------------------ */
+
+
+    .about-me-container>div {
+        width: 100%;
+    }
+
+    .about-me-container>div:nth-child(2),
+    .about-me-container>div:nth-child(3) {
+        display: none;
+    }
+
+    .about-me-container .about-me-technologies div.technology-logos {
+        margin-top: 10px;
+    }
+
+    .about-me-container .about-me-technologies div.technology-logos .technology-logo p {
+        margin-top: 5%;
+    }
+
+    .about-me-container .about-me-technologies div.technology-logos img {
+        height: 80px;
+    }
+
+    /* ------------------------------workflow------------------------------ */
+
+
+    .my-workflow-container .my-workflow-unit {
+        width: calc(100%/3);
+    }
+
+    .my-workflow-unit {
+        -webkit-flex-basis: calc(100%/3);
+        -ms-flex-preferred-size: calc(100%/3);
+        flex-basis: calc(100%/3);
+    }
+
+    .my-workflow-unit i {
+        width: calc(116px*3/4);
+        line-height: calc(110px*3/4);
+        font-size: 35px;
+    }
+
+    .my-workflow-unit i:hover {
+        color: #415B76;
+        border: 3px solid #415B76;
+        background-color: #0000;
+    }
+
+    .my-workflow-unit>h3 {
+        font-size: 20px;
+    }
+
+    /* ------------------------------workflow-process----------------------------- */
+
+    .workflow-process .workflow-unit p {
+        text-align: center;
+    }
+
+    .workflow-process .workflow-unit p i {
+        width: calc(94px*3/4);
+        line-height: calc(90px*3/4);
+        font-size: calc(50px*3/4);
+    }
+
+    .workflow-process .workflow-unit p i:hover {
+        background-color: #0000;
+        color: #415B76;
+    }
+
+    .workflow-process .workflow-unit h4 {
+        font-size: 16px;
+    }
+
+
+    .workflow-process .workflow-unit-description {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .workflow-process .workflow-unit-description p {
+        display: none;
+        height: auto;
+    }
+
+    .workflow-process .concept:hover~.workflow-unit-description p.concept {
+        display: block;
+        -webkit-animation: showText 0.3s;
+        animation: showText 0.3s;
+    }
+
+    .workflow-process .draft:hover~.workflow-unit-description p.draft {
+        display: block;
+        -webkit-animation: showText 0.3s;
+        animation: showText 0.3s;
+    }
+
+    .workflow-process .design:hover~.workflow-unit-description p.design {
+        display: block;
+        -webkit-animation: showText 0.3s;
+        animation: showText 0.3s;
+    }
+
+    .workflow-process .coding:hover~.workflow-unit-description p.coding {
+        display: block;
+        -webkit-animation: showText 0.3s;
+        animation: showText 0.3s;
+    }
+
+    .workflow-process .tests:hover~.workflow-unit-description p.tests {
+        display: block;
+        -webkit-animation: showText 0.3s;
+        animation: showText 0.3s;
+    }
+
+    .workflow-process .publication:hover~.workflow-unit-description p.publication {
+        display: block;
+        -webkit-animation: showText 0.3s;
+        animation: showText 0.3s;
+    }
+
+    /* ------------------------------Projects------------------------------ */
+
+    /* ------------------------------Contact------------------------------ */
+
+    .contact div>div {
+        margin: 0 10% 0 10%;
+        width: 80%;
+    }
+
+
+    /* ------------------------------FOOTER------------------------------ */
+    footer p {
+        text-align: center;
+    }
+}
+
+@media (max-width: 640px) {
+    h2 {
+        /* padding: 5px; */
+        line-height: 8vh;
+        /* border-bottom: 1px solid #CDD6D5; */
+        font-size: 30px;
+        text-align: center;
+    }
+
+    /* ------------------------------NAVIGATION------------------------------ */
+    nav {
+        position: fixed;
+        z-index: 1;
+        width: 100%;
+        background-color: #0B0D0F;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    nav ul.clicked {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-align-content: center;
+        -ms-flex-line-pack: center;
+        align-content: center;
+        -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+        width: 100%;
+        height: 300px;
+    }
+
+    nav ul li {
+        list-style: none;
+    }
+
+    nav ul li a {
+        display: block;
+        margin: 5px 0;
+        padding: 0 40px;
+        color: #CDD6D5;
+        line-height: 40px;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    nav ul li a:hover {
+        color: #EEF4F2;
+    }
+
+    nav ul li a i {
+        margin-right: 10px;
+    }
+
+    .arrow-up {
+        position: fixed;
+        bottom: 15px;
+        right: 15px;
+        width: 30px;
+        height: 30px;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        background-color: #415B76;
+        -webkit-transition: 0.3s;
+        -o-transition: 0.3s;
+        transition: 0.3s;
+    }
+
+    .arrow-up i {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        font-size: 20px;
+    }
+
+    .arrow-up:hover {
+        background-color: #233656;
+    }
+
+    .burger-menu {
+        display: block;
+        position: fixed;
+        top: 15px;
+        right: 15px;
+        width: 50px;
+        height: 50px;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        background-color: #415B76;
+        -webkit-transition: 0.3s;
+        -o-transition: 0.3s;
+        transition: 0.3s;
+    }
+
+    .burger-menu i {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        font-size: 25px;
+        -webkit-transition: 0.2s;
+        -o-transition: 0.2s;
+        transition: 0.2s;
+    }
+
+    /* ------------------------------HEADER------------------------------ */
+
+
+    .welcome {
+        margin: 0;
+        padding-left: 0vw;
+    }
+
+    header h1 {
+        width: 100%;
+        font-size: 50px;
+        text-align: center;
+    }
+
+    header h2 {
+        width: 100%;
+        font-size: 20px;
+        text-align: center;
+
+    }
+
+    /* ------------------------------About me------------------------------ */
+
+
+    .about-me-container>div {
+        padding: 4%;
+    }
+
+    .about-me-container .about-me-technologies div.technology-logos img {
+        height: 50px;
+    }
+
+    /* ------------------------------workflow------------------------------ */
+    .my-workflow-container {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        padding: 0 4%;
+    }
+
+    .my-workflow-container>.my-workflow-unit {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-flex-basis: 100%;
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        width: 100%;
+        padding: 2vw;
+        text-align: center;
+    }
+
+
+    .my-workflow-unit i {
+        margin-right: 15px;
+        margin-bottom: 15px;
+        width: 56px;
+        line-height: 50px;
+        height: 56px;
+        font-size: 20px;
+        border: 3px solid #415B76;
+    }
+
+    .my-workflow-unit i:hover {
+        color: #415B76;
+        border: 3px solid #415B76;
+        background-color: #0000;
+    }
+
+    .my-workflow-unit>h3 {
+        font-size: 16px;
+        height: auto;
+    }
+
+    .my-workflow-container>.my-workflow-unit p {
+        display: block;
+        width: 100%;
+    }
+
+
+    /* ------------------------------workflow-process----------------------------- */
+
+
+
+    .workflow-process .workflow-unit p i {
+        width: 56px;
+        line-height: 50px;
+        height: 56px;
+        font-size: 20px;
+        border: 3px solid #415B76;
+    }
+
+    .workflow-process .workflow-unit p i:hover {
+        background-color: #0000;
+        color: #415B76;
+    }
+
+    .workflow-process .workflow-unit h4 {
+        font-size: 16px;
+    }
+
+
+    .workflow-process .workflow-unit-description {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    .workflow-process .workflow-unit-description p {
+        display: none;
+        height: auto;
+        opacity: 0;
+        text-align: center;
+        -webkit-transition: 0.3s;
+        -o-transition: 0.3s;
+        transition: 0.3s;
+    }
+
+    .workflow-process .concept:hover~.workflow-unit-description p.concept {
+        display: block;
+        -webkit-animation: showText 0.3s;
+        animation: showText 0.3s;
+    }
+
+    .workflow-process .draft:hover~.workflow-unit-description p.draft {
+        display: block;
+        -webkit-animation: showText 0.3s;
+        animation: showText 0.3s;
+    }
+
+    .workflow-process .design:hover~.workflow-unit-description p.design {
+        display: block;
+        -webkit-animation: showText 0.3s;
+        animation: showText 0.3s;
+    }
+
+    .workflow-process .coding:hover~.workflow-unit-description p.coding {
+        display: block;
+        -webkit-animation: showText 0.3s;
+        animation: showText 0.3s;
+    }
+
+    .workflow-process .tests:hover~.workflow-unit-description p.tests {
+        display: block;
+        -webkit-animation: showText 0.3s;
+        animation: showText 0.3s;
+    }
+
+    .workflow-process .publication:hover~.workflow-unit-description p.publication {
+        display: block;
+        -webkit-animation: showText 0.3s;
+        animation: showText 0.3s;
+    }
+
+    /* ------------------------------Projects------------------------------ */
+    div.projects-list div.project-miniature {
+        -webkit-flex-basis: calc(100%/2);
+        -ms-flex-preferred-size: calc(100%/2);
+        flex-basis: calc(100%/2);
+        height: calc(100vw/2*9/17);
+    }
+
+    /* ------------------------------Contact------------------------------ */
+
+    .contact div>div {
+        margin: 0 10% 0 10%;
+        width: 80%;
+    }
+
+
+    /* ------------------------------FOOTER------------------------------ */
+    /* No changes */
+}
+
+@media (max-width: 414px) {
+    h2 {
+        line-height: 8vh;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    /* ------------------------------NAVIGATION------------------------------ */
+    nav {
+        position: fixed;
+        z-index: 1;
+        width: 100%;
+        background-color: #0B0D0F;
+    }
+
+    nav ul {
+        display: none;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: end;
+        -webkit-justify-content: flex-end;
+        -ms-flex-pack: end;
+        justify-content: flex-end;
+        width: 100%;
+        height: 50px;
+    }
+
+    nav ul li {
+        list-style: none;
+    }
+
+    nav ul li a {
+        display: block;
+        margin: 5px 0;
+        padding: 0 40px;
+        color: #CDD6D5;
+        line-height: 40px;
+        text-decoration: none;
+    }
+
+    nav ul li a:hover {
+        color: #EEF4F2;
+    }
+
+    nav ul li a i {
+        margin-right: 10px;
+    }
+
+    .arrow-up {
+        position: fixed;
+        bottom: 15px;
+        right: 15px;
+        width: 30px;
+        height: 30px;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        background-color: #415B76;
+        -webkit-transition: 0.3s;
+        -o-transition: 0.3s;
+        transition: 0.3s;
+    }
+
+    .arrow-up i {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        font-size: 20px;
+    }
+
+    .arrow-up:hover {
+        background-color: #233656;
+    }
+
+    /* ------------------------------HEADER------------------------------ */
+    header h1 {
+        font-size: 40px;
+    }
+
+
+
+    /* ------------------------------About me------------------------------ */
+
+
+    /* ------------------------------workflow------------------------------ */
+
+    .my-workflow-unit i {
+        width: 46px;
+        line-height: 40px;
+        height: 46px;
+
+    }
+
+    /* ------------------------------workflow-process----------------------------- */
+
+
+
+    .workflow-process .workflow-unit p i {
+        width: 46px;
+        line-height: 40px;
+        height: 46px;
+    }
+
+    .workflow-process .workflow-unit p i:hover {
+        background-color: #0000;
+        color: #415B76;
+    }
+
+    .workflow-process .workflow-unit h4 {
+        display: none;
+    }
+
+
+    .workflow-process .workflow-unit-description {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    .workflow-process .workflow-unit-description p {
+        display: none;
+        height: auto;
+        opacity: 0;
+        text-align: center;
+        -webkit-transition: 0.3s;
+        -o-transition: 0.3s;
+        transition: 0.3s;
+    }
+
+    .workflow-process .concept:hover~.workflow-unit-description p.concept {
+        display: block;
+        -webkit-animation: showText 0.3s;
+        animation: showText 0.3s;
+    }
+
+    .workflow-process .draft:hover~.workflow-unit-description p.draft {
+        display: block;
+        -webkit-animation: showText 0.3s;
+        animation: showText 0.3s;
+    }
+
+    .workflow-process .design:hover~.workflow-unit-description p.design {
+        display: block;
+        -webkit-animation: showText 0.3s;
+        animation: showText 0.3s;
+    }
+
+    .workflow-process .coding:hover~.workflow-unit-description p.coding {
+        display: block;
+        -webkit-animation: showText 0.3s;
+        animation: showText 0.3s;
+    }
+
+    .workflow-process .tests:hover~.workflow-unit-description p.tests {
+        display: block;
+        -webkit-animation: showText 0.3s;
+        animation: showText 0.3s;
+    }
+
+    .workflow-process .publication:hover~.workflow-unit-description p.publication {
+        display: block;
+        -webkit-animation: showText 0.3s;
+        animation: showText 0.3s;
+    }
+
+    /* ------------------------------Projects------------------------------ */
+    div.projects-list div.project-miniature {
+        -webkit-flex-basis: 100%;
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        height: calc(100vw*9/17);
+    }
+
+    /* ------------------------------Contact------------------------------ */
+
+    .contact div>div {
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .contact form {
+        padding: 20px;
+    }
+
+
+    /* ------------------------------FOOTER------------------------------ */
+    /* No changes */
+}
+
+@media (max-width: 360px) {
+
+    /* ------------------------------workflow------------------------------ */
+    .my-workflow-unit i {
+        margin-right: 15px;
+        margin-bottom: 15px;
+        width: 36px;
+        line-height: 30px;
+        height: 36px;
+        font-size: 16px;
+    }
+
+    .my-workflow-unit>h3 {
+        font-size: 14px;
+    }
+
+    .my-workflow-container>.my-workflow-unit p {
+        font-size: 12px;
+        ;
+    }
+
+    /* ------------------------------workflow-process----------------------------- */
+
+
+
+    .workflow-process .workflow-unit p i {
+        width: 36px;
+        line-height: 30px;
+        height: 36px;
+        font-size: 16px;
+    }
+}
+
+@-webkit-keyframes showText {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes showText {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
