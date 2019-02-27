@@ -311,8 +311,9 @@ header h2 {
     -webkit-transition: 0.2s;
     -o-transition: 0.2s;
     transition: 0.2s;
-
 }
+
+
 
 .workflow-process .workflow-unit.concept p i {
     animation: borderFlickering 18s linear 12s infinite normal;
@@ -693,11 +694,11 @@ footer p {
         font-size: 35px;
     }
 
-    .my-workflow-unit i:hover {
+    /* .my-workflow-unit i:hover {
         color: #415B76;
         border: 3px solid #415B76;
         background-color: #0000;
-    }
+    } */
 
     .my-workflow-unit>h3 {
         font-size: 20px;
