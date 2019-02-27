@@ -303,7 +303,7 @@ header h2 {
     width: 94px;
     line-height: 90px;
     color: #415B76;
-    border: 2px solid #415B76;
+    border: 3px solid #415B76;
     -webkit-border-radius: 50%;
     border-radius: 50%;
     font-size: 50px;
@@ -311,6 +311,31 @@ header h2 {
     -webkit-transition: 0.2s;
     -o-transition: 0.2s;
     transition: 0.2s;
+
+}
+
+.workflow-process .workflow-unit.concept p i {
+    animation: borderFlickering 18s linear 12s infinite normal;
+}
+
+.workflow-process .workflow-unit.draft p i {
+    animation: borderFlickering 18s linear 0s infinite normal;
+}
+
+.workflow-process .workflow-unit.design p i {
+    animation: borderFlickering 18s linear 6s infinite normal;
+}
+
+.workflow-process .workflow-unit.coding p i {
+    animation: borderFlickering 18s linear 15s infinite normal;
+}
+
+.workflow-process .workflow-unit.tests p i {
+    animation: borderFlickering 18s linear 3s infinite normal;
+}
+
+.workflow-process .workflow-unit.publication p i {
+    animation: borderFlickering 18s linear 9s infinite normal;
 }
 
 .workflow-process .workflow-unit p i:hover {
@@ -1309,4 +1334,105 @@ footer p {
     100% {
         opacity: 1;
     }
+}
+
+@keyframes borderFlickering {
+    0% {
+        color: #415B76;
+    }
+
+    3% {
+        color: #CDD6D5;
+    }
+
+    5.33% {
+        color: #CDD6D5;
+    }
+
+    8.33% {
+        color: #415B76
+    }
+
+    12.5% {}
+
+    16.7% {}
+
+    20.8% {}
+
+    /* 
+    25% {
+        border: 2px solid #415B76;
+    }
+
+    29.17% {
+        border: 2px solid #415B76;
+    }
+
+    33.33% {
+        border: 2px solid #415B76;
+    }
+
+    37.5% {
+        border: 2px solid #415B76;
+    }
+
+    41.6% {
+        border: 2px solid #415B76;
+    }
+
+    45.83% {
+        border: 2px solid #415B76;
+    }
+
+    50% {
+        border: 2px solid #415B76;
+    }
+
+    54.16% {
+        border: 2px solid #415B76;
+    }
+
+    58.3% {
+        border: 2px solid #415B76;
+    }
+
+    62.5% {
+        border: 2px solid #415B76;
+    }
+
+    66.66% {
+        border: 2px solid #415B76;
+    }
+
+    70.83% {
+        border: 2px solid #415B76;
+    }
+
+    75% {
+        border: 2px solid #415B76;
+    }
+
+    79.16% {
+        border: 2px solid #415B76;
+    }
+
+    83.33% {
+        border: 2px solid #415B76;
+    }
+
+    87.5% {
+        border: 2px solid #415B76;
+    }
+
+    91.66% {
+        border: 2px solid #415B76;
+    }
+
+    95.83% {
+        border: 2px solid #415B76;
+    }
+
+    100% {
+        border: 2px solid #415B76;
+    } */
 }
