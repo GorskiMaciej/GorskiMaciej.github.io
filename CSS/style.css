@@ -316,30 +316,37 @@ header h2 {
 
 
 .workflow-process .workflow-unit.concept p i {
+    -webkit-animation: borderFlickering 18s linear 12s infinite normal;
     animation: borderFlickering 18s linear 12s infinite normal;
 }
 
 .workflow-process .workflow-unit.draft p i {
+    -webkit-animation: borderFlickering 18s linear 0s infinite normal;
     animation: borderFlickering 18s linear 0s infinite normal;
 }
 
 .workflow-process .workflow-unit.design p i {
+    -webkit-animation: borderFlickering 18s linear 6s infinite normal;
     animation: borderFlickering 18s linear 6s infinite normal;
 }
 
 .workflow-process .workflow-unit.coding p i {
+    -webkit-animation: borderFlickering 18s linear 15s infinite normal;
     animation: borderFlickering 18s linear 15s infinite normal;
 }
 
 .workflow-process .workflow-unit.tests p i {
+    -webkit-animation: borderFlickering 18s linear 3s infinite normal;
     animation: borderFlickering 18s linear 3s infinite normal;
 }
 
 .workflow-process .workflow-unit.publication p i {
+    -webkit-animation: borderFlickering 18s linear 9s infinite normal;
     animation: borderFlickering 18s linear 9s infinite normal;
 }
 
 .workflow-process .workflow-unit p i:hover {
+    -webkit-animation: borderFlickering 0s linear 9s infinite normal;
     animation: borderFlickering 0s linear 9s infinite normal;
     background-color: #415B76;
     color: #CDD6D5;
@@ -1335,6 +1342,24 @@ footer p {
 
     100% {
         opacity: 1;
+    }
+}
+
+@-webkit-keyframes borderFlickering {
+    0% {
+        color: #415B76;
+    }
+
+    3% {
+        color: #CDD6D5;
+    }
+
+    5.33% {
+        color: #CDD6D5;
+    }
+
+    8.33% {
+        color: #415B76;
     }
 }
 
