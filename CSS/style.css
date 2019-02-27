@@ -339,6 +339,7 @@ header h2 {
 }
 
 .workflow-process .workflow-unit p i:hover {
+    animation: borderFlickering 0s linear 9s infinite normal;
     background-color: #415B76;
     color: #CDD6D5;
 }
@@ -1350,89 +1351,6 @@ footer p {
     }
 
     8.33% {
-        color: #415B76
+        color: #415B76;
     }
-
-    12.5% {}
-
-    16.7% {}
-
-    20.8% {}
-
-    /* 
-    25% {
-        border: 2px solid #415B76;
-    }
-
-    29.17% {
-        border: 2px solid #415B76;
-    }
-
-    33.33% {
-        border: 2px solid #415B76;
-    }
-
-    37.5% {
-        border: 2px solid #415B76;
-    }
-
-    41.6% {
-        border: 2px solid #415B76;
-    }
-
-    45.83% {
-        border: 2px solid #415B76;
-    }
-
-    50% {
-        border: 2px solid #415B76;
-    }
-
-    54.16% {
-        border: 2px solid #415B76;
-    }
-
-    58.3% {
-        border: 2px solid #415B76;
-    }
-
-    62.5% {
-        border: 2px solid #415B76;
-    }
-
-    66.66% {
-        border: 2px solid #415B76;
-    }
-
-    70.83% {
-        border: 2px solid #415B76;
-    }
-
-    75% {
-        border: 2px solid #415B76;
-    }
-
-    79.16% {
-        border: 2px solid #415B76;
-    }
-
-    83.33% {
-        border: 2px solid #415B76;
-    }
-
-    87.5% {
-        border: 2px solid #415B76;
-    }
-
-    91.66% {
-        border: 2px solid #415B76;
-    }
-
-    95.83% {
-        border: 2px solid #415B76;
-    }
-
-    100% {
-        border: 2px solid #415B76;
-    } */
 }
