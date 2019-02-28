@@ -63,6 +63,11 @@ nav ul li a {
     cursor: pointer;
 }
 
+nav ul li a.activeSection {
+    background-color: #232b35;
+    animation: navBlink 0.5s linear 0s both;
+}
+
 nav ul li a:hover {
     color: #EEF4F2;
 }
@@ -1378,5 +1383,23 @@ footer p {
 
     8.33% {
         color: #415B76;
+    }
+}
+
+@keyframes navBlink {
+    0% {
+        background-color: #232b3500;
+    }
+
+    25% {
+        background-color: #232b35ff;
+    }
+
+    75% {
+        background-color: #232b35ff;
+    }
+
+    100% {
+        background-color: #232b3500;
     }
 }
