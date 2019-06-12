@@ -446,7 +446,7 @@ div.projects-list div.project-miniature .description {
 
 div.projects-list div.project-miniature .description h3 {
     position: absolute;
-    top: 50%;
+    top: 35%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
