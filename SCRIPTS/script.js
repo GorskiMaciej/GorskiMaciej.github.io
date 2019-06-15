@@ -10,20 +10,7 @@ const navContact = document.querySelector("nav ul li .a-contact");
 
 const navTab = [navStart, navAboutMe, navWorkflow, navProjects, navContact];
 
-// function navToggleBackground() {
 
-//     navTab.forEach(function (Element) {
-//         if (Element.classList.contains("activeSection")) {
-//         Element.classList.remove("activeSection");
-//         }
-//     });
-//     this.classList.add("activeSection");
-// };
-
-// navTab.forEach(function (navTabElement) {
-//     navTabElement.addEventListener("click", navBtnBackground);
-// });
-// navStart.addEventListener("click", navToggleBackground());
 navStart.addEventListener("click", function () {
     navTab.forEach(function (Element) {
         Element.classList.remove("activeSection");
