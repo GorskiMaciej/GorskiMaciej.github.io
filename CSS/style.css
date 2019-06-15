@@ -21,9 +21,9 @@ html {
 }
 
 h2 {
-    /* padding: 5px; */
+    padding-top: 50px;
     line-height: 10vh;
-    /* border-bottom: 1px solid #CDD6D5; */
+    border-bottom: 1px solid #CDD6D5;
     font-size: 30px;
     text-align: center;
 }
